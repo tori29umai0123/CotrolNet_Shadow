@@ -1,2 +1,19 @@
 # CotrolNet_Shadow
- 
+特定のディレクトリに入った3Dモデルと光源の向き情報をレンダリングするだけのやつ。<br>
+分かっている人だけ使ってください
+
+# 使い方
+①有料アセットTriLib 2をインポート<br>
+https://assetstore.unity.com/packages/tools/modeling/trilib-2-model-loading-package-157548?locale=ja-JP<br>
+
+②unitypackageをインポート<br>
+CotrolNet_Shadow.unitypackage<br>
+
+③CotrolNet_Shadowシーンを開いて、Hierarchy→System→Camera_Captureを設定する<br>
+outpath：出力先<br>
+modelpath：3Dモデルがある場所<br>
+max_count：出力画像の枚数<br>
+
+④Unityを実行すると画像が出力されるはず<br>
+読みこむ3Dモデルを以下のものに最適化しているので、座標とかおかしくなる場合はModelLoader.csを修正してください。<br>
+https://www.cgtrader.com/3d-model-collections/1400-people-crowds
