@@ -1,0 +1,13 @@
+
+Assets/TriLib.meta
+Assets/TriLib
+.vs
+.vsconfig
+Library
+*.csproj
+*.log
+obj
+Packages
+UserSettings
+ProjectSettings
+CotrolNet_Shadow.sln
