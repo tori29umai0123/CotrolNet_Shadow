@@ -20,7 +20,7 @@ max_count：出力画像の枚数<br>
 https://www.cgtrader.com/3d-model-collections/1400-people-crowds
 
 ⑤Python_Script.zipをDL<br>
-https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.0
-image_converter.pyで画像加工
-generate_prompt.pyでタグ付けができます。
+https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.0<br>
+image_converter.pyで画像加工<br>
+generate_prompt.pyでタグ付けができます。<br>
 導入方法は面倒くさいので割愛。各種ライブラリインストールしたら動くよ
