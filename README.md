@@ -18,3 +18,9 @@ max_count：出力画像の枚数<br>
 ④Unityを実行すると画像が出力されるはず<br>
 読みこむ3Dモデルを以下のものに最適化しているので、座標とかおかしくなる場合はModelLoader.csを修正してください。<br>
 https://www.cgtrader.com/3d-model-collections/1400-people-crowds
+
+⑤Python_Script.zipをDL<br>
+https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.0
+image_converter.pyで画像加工
+generate_prompt.pyでタグ付けができます。
+導入方法は面倒くさいので割愛。各種ライブラリインストールしたら動くよ
