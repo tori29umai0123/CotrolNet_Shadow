@@ -7,7 +7,7 @@
 https://assetstore.unity.com/packages/tools/modeling/trilib-2-model-loading-package-157548?locale=ja-JP<br>
 
 ②unitypackageをインポート<br>
-CotrolNet_Shadow.unitypackage<br>
+https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.0
 
 ③CotrolNet_Shadowシーンを開いて、Hierarchy→System→Camera_Captureを設定する<br>
 outpath：出力先<br>
