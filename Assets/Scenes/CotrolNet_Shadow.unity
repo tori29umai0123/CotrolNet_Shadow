@@ -196,7 +196,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &674888059
 GameObject:
@@ -330,13 +330,13 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -468,92 +468,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 7.08, y: 0, z: 0}
---- !u!1 &1245514644
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1245514647}
-  - component: {fileID: 1245514646}
-  - component: {fileID: 1245514645}
-  m_Layer: 0
-  m_Name: MainCamera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1245514645
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245514644}
-  m_Enabled: 1
---- !u!20 &1245514646
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245514644}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.83921576, g: 0.83921576, b: 0.83921576, a: 1}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 32
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1245514647
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245514644}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 721, y: 361, z: -479}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1460293330
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +479,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1460293333}
-  - component: {fileID: 1460293332}
   - component: {fileID: 1460293334}
   m_Layer: 0
   m_Name: System
@@ -572,30 +487,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1460293332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460293330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9dc1cab304b9624083972bca2790a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelCamera: {fileID: 963194225}
-  LightCamera: {fileID: 114664303}
-  DirectionalLight: {fileID: 705507993}
-  Pos: {x: 0, y: 0, z: 0}
-  ModelLoader: {fileID: 1460293334}
-  outpath: D:\desktop\output
-  modelpath: D:\desktop\model
-  count: 0
-  max_count: 10000
-  model_count: 0
-  load_count: 0
-  load: 0
 --- !u!4 &1460293333
 Transform:
   m_ObjectHideFlags: 0
@@ -620,12 +511,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460293330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 809ee24f7d6bff3429301324a87ef937, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a36f3f5dc6a4564a940a5ff2dfe2799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Camera: {fileID: 963194227}
-  loadedGameObject: {fileID: 0}
-  playerPos: {x: 0, y: 0, z: 0}
+  ModelCamera: {fileID: 963194225}
+  LightCamera: {fileID: 114664303}
+  DirectionalLight: {fileID: 705507993}
+  model: {fileID: 0}
+  captureW: 512
+  captureH: 512
+  IsLoading: 0
+  Pos: {x: 0, y: 0, z: 0}
+  outpath: D:\desktop\output
+  modelpath: D:\Documents\3d\unity\CotrolNet_Shadow\Assets\Resources
+  count: 0
+  max_count: 5
+  model_count: 0
+  load_count: 0
+  load: 0
 --- !u!1 &1680472417
 GameObject:
   m_ObjectHideFlags: 0
