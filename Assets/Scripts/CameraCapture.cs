@@ -100,8 +100,8 @@ public class CameraCapture : MonoBehaviour
             directionalLight.transform.eulerAngles = new Vector3(rotation, 90f, 90f);
 
             // ŽB‰e
-            CameraSavePng(modelCamera.GetComponent<UnityEngine.Camera>(), "target", modelName + "_" + currentCount.ToString("00000"));
-            CameraSavePng(lightCamera.GetComponent<UnityEngine.Camera>(), "light", modelName + "_" + currentCount.ToString("00000"));
+            CameraSavePng(modelCamera.GetComponent<UnityEngine.Camera>(), "target", currentCount.ToString("00000"));
+            CameraSavePng(lightCamera.GetComponent<UnityEngine.Camera>(), "light", currentCount.ToString("00000"));
 
             // ƒ‚ƒfƒ‹‚ð”jŠü
             Destroy(currentModel);
