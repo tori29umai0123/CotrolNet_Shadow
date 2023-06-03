@@ -951,7 +951,7 @@ MonoBehaviour:
   Count: {fileID: 306908270}
   outpath: D:\desktop\output
   modelpath: D:\Documents\3d\unity\CotrolNet_Shadow\Assets\Resources
-  maxCount: 1000
+  maxCount: 10000
   captureWidth: 512
   captureHeight: 512
   captureInterval: 0.5
