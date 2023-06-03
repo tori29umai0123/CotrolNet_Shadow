@@ -7,7 +7,7 @@ CotrolNet用のデータセットを作る為に作った。
 ①3Dモデルをobjかfbxに変換して、0001で始まる四桁の数字名にして、Assets\Resourcesフォルダ以下に配置<br>
 
 ②unitypackageをインポート<br>
-https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.1<br>
+https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.2<br>
 
 ③CotrolNet_Shadowシーンを開いて、Hierarchy→System→Camera_Captureを設定する<br>
 outpath：出力先<br>
