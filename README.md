@@ -4,20 +4,20 @@ CotrolNet用のデータセットを作る為に作った。
 分かっている人だけ使ってください
 
 # 使い方
-①有料アセットTriLib 2をインポート<br>
-https://assetstore.unity.com/packages/tools/modeling/trilib-2-model-loading-package-157548?locale=ja-JP<br>
+①3Dモデルをobjかfbxに変換して、0001で始まる四桁の数字名にして、Assets\Resourcesフォルダ以下に配置<br>
 
 ②unitypackageをインポート<br>
-https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.0
+https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.1<br>
 
 ③CotrolNet_Shadowシーンを開いて、Hierarchy→System→Camera_Captureを設定する<br>
 outpath：出力先<br>
-modelpath：3Dモデルがある場所<br>
+modelpath：Resourcesフォルダ一<br>
 max_count：出力画像の枚数<br>
 
 ④Unityを実行すると画像が出力されるはず<br>
-読みこむ3Dモデルを以下のものに最適化しているので、座標とかおかしくなる場合はModelLoader.csを修正してください。<br>
-https://www.cgtrader.com/3d-model-collections/1400-people-crowds
+読みこむ3Dモデルを以下のものに最適化しているので、座標とかおかしくなる場合はCamera_Capture.csを修正してください。<br>
+https://www.cgtrader.com/3d-model-collections/1400-people-crowds<br>
+https://www.myminifactory.com/category/SMK-Statens-museum-for-Kunst-The-National-Gallery-of-Denmark
 
 ⑤Python_Script.zipをDL<br>
 https://github.com/tori29umai0123/CotrolNet_Shadow/releases/tag/CotrolNet_Shadow_V1.0<br>
